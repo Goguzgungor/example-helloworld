@@ -1,0 +1,14 @@
+nosana:
+  description: Nosana
+
+global:
+  image: alpine:latest
+
+  trigger:
+    branch:
+      - "*"
+
+jobs:
+  - name: Create README
+    commands:
+      - echo NOSANA_NODE
